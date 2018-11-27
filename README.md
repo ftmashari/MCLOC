@@ -5,10 +5,14 @@ This program clusters orthologous proteins. It needs Python 2.7 or higher, MCL, 
 
 ## Positional Arguments
 **p**	Directory containing all proteomes in fasta format. Each proteome should be in a separate file.
+
 **o**	Path to the output file
 
 ## Optional Arguments
-\-h, \-\-help            	show this help message and exit
-\-e EVA, \-\-eva EVA     	E-value threshold for phmmer
-\-s THR, \-\-thr THR     	Similarity threshold
-\-c CHNK, \-\-chnk CHNK  	Chunk size
+**\-h**, **\-\-help**            	show this help message and exit
+
+**\-e** EVA, **\-\-eva** EVA     	E-value threshold for phmmer
+
+**\-s** THR, **\-\-thr** THR     	Similarity threshold
+
+**\-c** CHNK, **\-\-chnk** CHNK  	Chunk size
